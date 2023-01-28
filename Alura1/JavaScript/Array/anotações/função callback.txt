@@ -1,0 +1,24 @@
+Função que passamos como parametro de outra.
+
+exemplo:
+
+const notas = [6, 7 ,6 ,6];
+
+notas.forEach(function(nota){
+	console.log(nota)
+})
+
+callback com arrow function
+
+notas.forEach((nota) => {
+	console.log(nota);
+
+});
+
+callback com function 
+
+const notas = [ 6, 5, 6, 7];
+
+const exibeNotas = nota => console.log(nota);
+
+notas.forEach(exibeNotas);

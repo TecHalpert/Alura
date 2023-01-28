@@ -1,0 +1,8 @@
+Exemplo: 
+
+const notas = [10,10,5,7];
+const alunos = [Roberta, Cláudia, Jerferson, Gleber];
+
+const listaAlunosEMedias = [alunos,medias];
+
+const [alunos,medias]=

@@ -1,0 +1,2 @@
+http é stateless ñ guarda estado e cada requisição é única. 
+ 

@@ -1,0 +1,14 @@
+Get - Trás resultado, mostra os dados na url.
+O protocolo HTTP define que o GET deve ser utilizado apenas para acessar os dados, mas HTTP, como protocolo, não pode impedir o desenvolvedor de fazer algo diferente. 
+
+Post - Envia resultado e não mostra os dados na url.
+
+
+
+
+https://www.youtube.com/results?search_query=Blabla+blabla&SP=CAM%253D
+  |              |         |   |    |                     |        
+  |              |         |   |    -----------------|     -------|
+Protocolo//domínimo//recurso//existemm parametros // parametro//concatenação de parametros
+
+

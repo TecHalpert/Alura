@@ -1,0 +1,2 @@
+Memória RAM(Random Access Memory/Memória de Acessso Aleatório):
+Guarda os dados que estamos trabalhando.

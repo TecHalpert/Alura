@@ -1,0 +1,8 @@
+É o tamanho de informaçãop q pode ser processada na
+CPU em um cico de clock.
+
+32 bits: consegue guardar 32 sequencias de 0s ou 1s
+64 bits: consegue guardar 64 sequencias de 0s ou 1s
+
+
+Processador de 32 bits só pode ter até 4 GB de ram

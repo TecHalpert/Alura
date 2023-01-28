@@ -1,0 +1,7 @@
+Get - Receber dados(params na url);
+
+Post - Submeeter dados (params no corpo da requisição);
+
+Delete - Remover um recuso;
+
+Put - Atualizar umm recurso; 

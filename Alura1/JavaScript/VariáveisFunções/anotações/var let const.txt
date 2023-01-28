@@ -1,0 +1,3 @@
+var: n é mais utilizada por ser mais propensa a bugs
+let : pode ter o valor mudado porém é necessário ser declarada antes
+const: tem sempre que ter um valor atribuído e o valor fica preso nela 

@@ -1,0 +1,61 @@
+-r recursivo
+-q quiet quieto
+-v verbose mostra tudo
+--help
+help
+ 
+whoami: da o nome do usuario
+pwd: mostra em que diretório eu estou
+clear/ctrl + L:limpa o prompt
+touch <arquivo>: altera a data de ultima modificação 
+date: ver a data atual do sistema
+
+ls: mostra todos os arquivos dentro do diretório
+ls *:mostra todos os arquivos dentro do diretório e se houver diretório dentro da origem.
+ls -l:mostra informações sobre os arquivos
+ls -la:mostra informações sobre os arquivos e mostra até os ocultos
+ls .: diretório atual
+ls ..: diretório anterior
+
+echo: exibe o que foi escrito dentro
+echo "balblabla" > blabla.txt: redireciona oq foi escrito para dentro de um arquivo.
+echo "eu estou tentando" >> blabla.txt: redireciona oq foi escrito sem apagar oq estava antes.
+
+cat: le oq tem no arquivo e mostra
+cat -n:mostra as linhas além do conteúdo.
+cat arquivo?.txt: o ? faz com que sejam lidos os arquivos com apenas um caracter após o "arquivo" apenas arquivos que possuam apenas um símbolo entre arquivo e .txt serão mostrados, como o arquivo1.txt.
+cat arquivo*.txt: o * faz com que sejam lidos os arquivos com qualquer quantidade de caracter após o "arquivo"  todos os arquivos que começarem com arquivo e terminarem com .txt terão seus conteúdos concatenados na tela, como arquivo123.txt, arquivo-abcd.txt, arquivo1.txt.
+
+head <arquivo>:le as 10 primeiras linhas do arquivo
+head -n 3 <arquivo>: le só as 3 primeiras linhas do arquivo
+tail <arquivo>:le o roda pé do arquivo
+tail -n 3 <arquivo>: le só as 3 ultimas linhas
+
+less <arquivo>:me faz poder visualizar o arquvo dentro do terminal
+
+cd:usado para ir para algum diretório.
+cd .: diretório atual
+cd ..:diretório anterior
+
+cp <arquivo a ter conteúdp copiado> <arquivo destino>
+cp -r:copia diretório
+
+mv <arquivo a ter nome modificado> <nome a ser modificado>
+mv <arquivo a ser movido> <diretório de destino>
+
+mkdir: cria um diretório
+
+rm:apaga arquivo
+rmdir:apaga diretório
+rm -r: apaga todos os arquivos dentro de um diretório e o próprio.
+
+zip -r <arquivo.zip> <diretório/>:compacta um diretório
+unzip <diretório>
+unzip -l : lista os arquivos dentro do .zip
+
+     c=criar z=zip 
+tar -cz <diretório/arquivo> > <arquivo.tar.gz>: empacotando em tar.
+tar -czf <arquivo.tar.gz> <diretório/arquivo>: empacotando em tar modo 2
+tar -xz < <arquivo.tar.gz> :descompactando
+tar -xzf <arquivo.tar.gz> :descompctando modo2
+tar -vxzf <arquivo.tar.gz> :descompctando modo2 porém tendo mais informações por conta do "v"

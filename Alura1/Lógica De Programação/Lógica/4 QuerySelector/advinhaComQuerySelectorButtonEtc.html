@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<input />
+<button>blabla</button>
+
+<script>
+
+    var segredo = Math.round(Math.random() * 10);
+    var input = document.querySelector("input");
+    input.focus()
+    var button = document.querySelector("button");
+
+
+    function verifica() {
+        if (input.value == 5) {
+            alert("vc acertou");
+        }
+        else {
+            alert("vc errou");
+        }
+
+        input.value = "";
+        input.focus()
+    }
+
+    button.onclick = verifica;
+
+
+
+</script>

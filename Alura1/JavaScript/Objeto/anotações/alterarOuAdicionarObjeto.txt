@@ -1,0 +1,10 @@
+Para adicionar propriedade em um objeto já criado é necessário adicioná-lo primeiro e dps chamá-lo
+caso contrário iremos tomar um undefined.
+
+para adicionar: 
+
+objeto.PropriedadeNova = dados da propriedade.
+
+para mudar
+
+objeto.PropriedadeJáCriada = mudança.

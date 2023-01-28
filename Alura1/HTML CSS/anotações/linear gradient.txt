@@ -1,0 +1,15 @@
+background:linear-gradient(orange, blue);
+
+vai de laranja para o azul
+
+background:linear-gradient(45deg, orange, blue);
+
+na PRIMEIRA propriedade eu coloco a inclinação das cores.
+
+background:linear-gradient(90deg, orange, blue);
+
+de um lado pro outro 
+
+background:linear-gradient(orange 50%, blue, red);
+
+laranja ocupa 50% das cores.

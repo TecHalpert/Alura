@@ -1,0 +1,16 @@
+CPU/Processador(Centra Process Unit/ Unidade Central de Processamento)
+É quem recebe as instruções da Memória Ram e processa elas.
+
+Dividida em algumas unidades.
+
+1- UC (Unidade de controle)
+é qm pega a instrução bit a bit e entender oq significa.
+ex: 
+
+2- ULA (Unidade Lógico Aritmmética)
+é qm manipula a maioria dos dados.
+
+3- Regristradores 
+guarda a instrução atual
+posição da instrução atual
+vallores intermediários 

@@ -1,0 +1,21 @@
+document representa todo o documento HTML 
+
+o . serve para entrar no documento
+
+document.querySelector('seletor');
+
+usado para buscar elemento com o seletor  
+
+
+
+ex:
+
+document.querySelector('button');
+
+representa ou referencia o button dentro do javascript
+
+
+
+document.querySelector('input[type=tel]');
+
+o [] serve para selecionar atributos de um elemento 

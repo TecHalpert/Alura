@@ -1,0 +1,4 @@
+Expressão de função: Não temos o nome da função propriamente, é um jeito mais curto, em apenas uma linha.
+Ela se comporta como uma variável.
+Normalmente declarada como const.
+Se declarada antes de ser criada dará erro.

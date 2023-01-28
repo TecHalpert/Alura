@@ -1,0 +1,36 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(x, y, raio) {
+
+        pincel.fillStyle = 'black';
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * Math.PI);
+        pincel.fill();
+    }
+
+    function limpaTela() {
+        pincel.clearRect(0, 0, 600, 400);
+    }
+
+    var raio = 19;
+    var fator = 0;
+    function pulsar() {
+        limpaTela();
+        if (raio > 30) {
+            fator = -1;
+        }
+        else if (raio < 20) {
+            fator = 1;
+        }
+        raio = raio + fator;
+        desenhaCirculo(300, 200, raio);
+    }
+
+    setInterval(pulsar, 20);
+</script>

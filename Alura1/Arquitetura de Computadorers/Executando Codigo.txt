@@ -1,0 +1,8 @@
+1 - Buscar 
+O processador busca na memória RAM a instrução que é para executar.
+O registrador guarda a instrução "atual"
+O registrador tem um contador que busca de acordo com a posição atual.
+2 - Decodificar
+A instrução é mandada para a UC e executa essa instrução
+3 - Executar 
+Vai armazenar no acumulador o valor

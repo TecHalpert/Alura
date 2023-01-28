@@ -1,0 +1,21 @@
+.class{
+   box-shadow: x y grauDeEspalhamento(Blur) intensidadeDaBorda  cor; 
+}
+
+exemplo:
+
+.class{
+  box-shadow:10px 10px 30px 20px #000000
+}
+
+adicionando "," ao final da pra colocar mais sombras.
+
+exemplo:
+
+.class{
+  box-shadow:10px 10px 30px 20px #000000, -10px -10px yellow, -20px 20px rgba(255,0,0,0.5);
+}
+
+sombra interna:
+
+box-shadow:inset 0 0 30px #FF00000;

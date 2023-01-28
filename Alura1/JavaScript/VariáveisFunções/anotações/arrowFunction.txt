@@ -1,0 +1,2 @@
+é um jeito rápido e curto de escrever a função. 
+tem vantagens quando se mexe com objetos.

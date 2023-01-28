@@ -1,0 +1,2 @@
+Usadas quando elas são o valor de algum atributo ou estão sendo 
+armazenadas dentro de alguma referência constante ou variável.

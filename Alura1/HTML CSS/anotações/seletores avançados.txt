@@ -1,0 +1,15 @@
+main > p 
+
+seleciona a filha direta (p) da tag main.
+
+img + p 
+
+seleciona o paragrafo logo após a img.
+
+img ~ p 
+
+seleciona todos os paragrafos após a img.
+
+.exemplo p:not(.exemplo2)
+
+seleciona todos os p que n tem a class selecionada. 

@@ -1,0 +1,6 @@
+Includes = retorna true ou false dependendo se o valor passado como parametro está presente ou não no array. 
+
+indexOf = retorna a posição no array do valor passado como parametros. 
+
+Podem ser utilizados em conjunto para verificar se existe um item presente no array, e se estiver, obter a posição do msm para buscá-lo em uma lista opicional. 
+Exemplo: verificar se um aluno estava presente em uma lista, e depois obter sua posição para buscar sua nota em outra lista

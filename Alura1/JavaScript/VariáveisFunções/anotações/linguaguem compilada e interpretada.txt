@@ -1,0 +1,2 @@
+Linguagem interpretada: o código é executado linha por linha
+Linguagem compilado: o código e lido e convertido para linguagem de máquina

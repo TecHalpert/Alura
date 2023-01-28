@@ -1,0 +1,3 @@
+Compiladores: Junta o código traduzido dee uma vez. Assim podendo exxeccutar diretamente pelo computador.
+
+Interpretadores: Traduz e executa um trecha de código de cada vez.

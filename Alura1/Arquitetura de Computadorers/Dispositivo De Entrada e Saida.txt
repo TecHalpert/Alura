@@ -1,0 +1,3 @@
+I/O
+Entrada: Teclado, Mouse, Fone...
+Saída: Monitor, Som, Impressora, HD/SSD. 

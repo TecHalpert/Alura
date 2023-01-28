@@ -1,0 +1,4 @@
+idadeMin = 12
+idadeMax = 18 
+
+idadeMax >= 19 ? console.log("não é permitido") : console.log("pode entrar"); 

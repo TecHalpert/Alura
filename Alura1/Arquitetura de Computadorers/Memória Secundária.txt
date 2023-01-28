@@ -1,0 +1,12 @@
+_________________________________________________________
+Memória Secundária do computador:
+
+Memória não volátil: guarda informação msm desligado.
+Exemplo: HD (Hard Disk/Disco Rígido):
+ele é ruim pois é lento e frágil,
+mas é barato e tem uma grande capacidade.
+Exemplo 2: SSD (Soid State Drive, Unidade de Estado Sólido),
+ele é menor, rápido e mais resistente,
+porém é mais caro e tem uma limitação de escrita.
+_________________________________________________________
+

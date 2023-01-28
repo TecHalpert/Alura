@@ -1,0 +1,11 @@
+for of 
+
+funciona quando queremos percorrer um array do inicio ao fim e todos os elementos.
+porém não conseguimos fzr algumas coisas mais específicas como percorrer de trás pra frente, percorrer de 2 em 2 entre outras coisas.
+
+ex:
+const notas = [8,6,8,4];
+let somaDasNotas = 0;
+for(let nota of notas){
+	somaDasNotas += nota;
+}

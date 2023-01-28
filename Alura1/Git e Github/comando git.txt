@@ -1,0 +1,37 @@
+Git pull: serve para puxar atualizações do repositório.
+
+Git status: ele serve para listar todos os arquivos que foram modificados.
+
+Git clone: é usado para selecionar um repositório existente e criar um clone ou uma cópia dele em um repositório local.
+
+Git checkout -b <desenvolvimento>: me move para a branch de desenvolvimento.
+
+Git switch main: me move para a branch principal
+
+Git merge: junta as branch e mescla as mudanças.
+
+Git branch: mostra as branch's disponíveis e em qual estou.
+
+Git push: empurra as atualizações para o repositório.
+Git push origin <desenvolvimento>:empurra as atualizações para o repositório escolhido.
+
+Git add: adiciona um arquivo novo. 
+git add . : usado para adicionar a mudança de todos os arquivos
+git add <nome-do-arquivo>: usado para adicionar a mudança do arquivo específico
+
+Git log: ver todas as atualizações 
+Git log --oneline: ver todos os commits um em cada linha 
+Git log -p: ver mais alterações do commit.
+Git log --author="user_name": pesquisar as informações do autor daquele commit.
+https://devhints.io/git-log-format
+
+Git commit: diz qual arquivo está sendo modificado.
+$ git commit app.js -m "testando"
+
+Git Restore: restaura uma versão antiga de algum arquivo.
+$ git restore --source xxxxxx .
+
+Git log --since=x.month.ago --until=x.day ago: serve para procurar informações de commit desde um tempo um outro.
+Git log --since=1.month.ago --until=1.day ago: procurando de um mês atrás até um dia atrás
+
+Normalmente a gente commita e dps da push.

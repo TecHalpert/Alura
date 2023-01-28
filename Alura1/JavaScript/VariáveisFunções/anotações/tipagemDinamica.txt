@@ -1,0 +1,7 @@
+O tipo da variável pode ser mudado
+
+let minhaVar = 50;
+minhaVar = "Cabelo";
+minhaVar = true;
+
+não é recomendado.

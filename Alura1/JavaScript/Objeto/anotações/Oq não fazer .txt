@@ -1,0 +1,5 @@
+Não podemos REATRIBUIR um valor de um objeto diferente a uma variável anteior.
+Vale notar que, caso a sintaxe de espalhamento seja usada em objetos que tenham chaves/propriedades com o mesmo nome, o JavaScript vai sobrescrever o valor destas propriedades à medida que encontra novos valores com o mesmo nome de chave.
+Os três objetos acima têm as mesmas propriedades. Mas o que acontece se tentarmos “espalhar” os dados em um único objeto com o spread operator?
+O resultado final é q o ultimo objeto declarado foi o mostrado.
+

@@ -1,0 +1,8 @@
+Math.round: retorna o valor com a casa decimal mais próxima
+
+toFixed: toFixed() eu consigo controlar o número de casas decimais após a vírgula, de forma mais simples, indicando o número de casas que eu quero como parâmetro.
+arredonda o número para cima
+seu retorno será uma string representando o número.
+
+Math.ceil() que retorna o maior número inteiro que é maior que o número passado
+Math.floor() que retorna o menor número inteiro que é menor que o número passado

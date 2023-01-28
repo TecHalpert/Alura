@@ -1,0 +1,12 @@
+.class{
+  opacity: 0.3; (apenas 30% do elemento);
+}
+
+.class:hover{
+  opacity: 0.3; (apenas 30% do elemento quando passar o mouse por cima);
+  transition: 300ms; (300 milesegundos pra opacidade ficar em 30%);
+}
+
+.class:{
+  color: rgbA(0,0,0,0.3); (rgbA tem opacidade, sendo colocada no ultimo valor)
+}

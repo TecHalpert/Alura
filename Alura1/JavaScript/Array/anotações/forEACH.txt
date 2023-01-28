@@ -1,0 +1,16 @@
+estrutura 
+
+const notas = [8,9,8,7];
+let somaDasNotas = 0;
+
+
+notas.forEach(function (nota, i, notas) {
+	console.log(nota); // elemento do array
+	console.log(i);// posição de cada elemento do array q estiver passando
+})
+
+ou
+
+notas.forEach((nota, i) => {
+	console.log(nota, i);
+})

@@ -1,0 +1,10 @@
+Memória ROM(Read-Only Memory/ Memória de apenas leitura):
+Quando o PC é inicializado as primeiras informações q serão...
+buscadas estarão na ROM,
+Como a BIOS(Basic Input/Output System/
+Sistema básico de entrada/saída):
+Ajuda a identificar os dispositivos conectadoss como o HD,
+e carregar o SO. 
+
+A Memória ROM tem memória não volátil com baixo armazenamento,
+ele é apenas lido,

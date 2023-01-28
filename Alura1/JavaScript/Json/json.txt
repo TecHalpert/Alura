@@ -1,0 +1,13 @@
+Não tem variáveis 
+As keys das propriedades tem ""
+Array e objetos aninhados podem existir 
+Proibido ter , no final 
+Função não são permitidas
+Comentários não são permitidos
+Suporta apenas tipos primitivos (string, number,boolean, null)
+undefined não é permitido, datas.
+
+existe pra quando temos um conjunto de configurações ou algum padrão que queremos colocar no nosso código e que queremos acessar em outros lugares.
+essa notação permite transformar um objeto em uma string.
+assim deixando mais fácil de ser manipulado em outros sistemas que não são javascript.
+
