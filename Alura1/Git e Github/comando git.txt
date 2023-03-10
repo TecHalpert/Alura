@@ -35,3 +35,6 @@ Git log --since=x.month.ago --until=x.day ago: serve para procurar informações
 Git log --since=1.month.ago --until=1.day ago: procurando de um mês atrás até um dia atrás
 
 Normalmente a gente commita e dps da push.
+
+git commit . -m "BLA BLA BLA"
+git push origin main
